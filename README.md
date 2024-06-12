@@ -49,11 +49,11 @@ open up you local host and port
 #### cmd
 mlflow ui
 
-### Set mlflow_uri in the configuration.py as follows:
+Set mlflow_uri in the configuration.py as follows:
 ```bash
 mlflow_uri = "https://dagshub.com/presiZHai/Kidney-Disease-Classification.mlflow"
 ```
-### Initialize DagsHub integration with mlflow log function in the model_evaluation_mlflow.py of components files
+Initialize DagsHub integration with mlflow log function in the model_evaluation_mlflow.py of components files
 ```bash
 dagshub.init(repo_owner='presiZHai', repo_name='Kidney-Disease-Classification', mlflow=True)
 ```
