@@ -27,7 +27,7 @@ STEP 01- Create a conda environment after opening the repository
 conda create -n imageclassfier python=3.10 -y
 ```
 ```bash
-conda activate cnncls
+conda activate imageclassfier
 ```
 
 STEP 02- install the requirements
@@ -47,6 +47,7 @@ open up you local host and port
 ### MLflow and Dagshub Integration
 
 #### cmd
+
 mlflow ui
 
 Set mlflow_uri in the configuration.py as follows:
@@ -57,7 +58,3 @@ Initialize DagsHub integration with mlflow log function in the model_evaluation_
 ```bash
 dagshub.init(repo_owner='presiZHai', repo_name='Kidney-Disease-Classification', mlflow=True)
 ```
-```bash
-mlflow.set_tracking_uri)
-```
-
