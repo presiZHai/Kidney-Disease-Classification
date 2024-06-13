@@ -58,3 +58,5 @@ Initialize DagsHub integration with mlflow log function in the model_evaluation_
 ```bash
 dagshub.init(repo_owner='presiZHai', repo_name='Kidney-Disease-Classification', mlflow=True)
 ```
+
+### DVC for Tracking Pipeline: DVC define pipelines in a standard YAML format (.dvc and dvc.yaml files), making them more manageable and consistent to reproduce.
