@@ -112,7 +112,7 @@ dagshub.init(repo_owner='presiZHai', repo_name='Kidney-Disease-Classification', 
 3. Create ECR repo to store/save docker image
 
 ```bash
-- Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+- Save the URI: 819735123922.dkr.ecr.eu-west-2.amazonaws.com/kidney-tumour
 
 ```
 
