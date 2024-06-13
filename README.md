@@ -41,7 +41,7 @@ python app.py
 
 Now,
 ```bash
-open up you local host and port
+open up the local host and port
 ```
 
 ### MLflow and Dagshub Integration
