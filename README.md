@@ -46,32 +46,32 @@ open up you local host and port
 
 ### MLflow and Dagshub Integration
 
-#### cmd
+##### cmd
 
 mlflow ui
 
-Set mlflow_uri in the configuration.py as follows:
+##### Set mlflow_uri in the configuration.py as follows:
 ```bash
 mlflow_uri = "https://dagshub.com/presiZHai/Kidney-Disease-Classification.mlflow"
 ```
-Initialize DagsHub integration with mlflow log function in the model_evaluation_mlflow.py of components files
+##### Initialize DagsHub integration with mlflow log function in the model_evaluation_mlflow.py of components files
 ```bash
 dagshub.init(repo_owner='presiZHai', repo_name='Kidney-Disease-Classification', mlflow=True)
 ```
 
-### DVC for Tracking Pipeline: DVC define pipelines in a standard YAML format (.dvc and dvc.yaml files), making them more manageable and consistent to reproduce.
-DVC commands
+### DVC Tracks Pipelines: Defines stages in standard YAML for easy management and consistent reproduction.
+##### DVC commands
 1. dvc init
 2. dvc repro
 3. dvc dag
 
 ### Streamlining ML Workflows: A Look at MLflow and DVC 
-#### MLflow
+##### MLflow
 
 * Production-Grade: Designed for handling the demands of real-world machine learning projects.
 * Experiment Tracking: Tracks and compares all your experiments, allowing for better analysis and iteration.
 * Model Logging & Tagging: Logs your models along with metadata (tags) for easy version control and retrieval.
-#### DVC
+##### DVC
 
 * Lightweight: Ideal for proof-of-concept (POC) projects due to its low resource requirements.
 * Experiment Tracking (Lite): Provides basic experiment tracking capabilities.
