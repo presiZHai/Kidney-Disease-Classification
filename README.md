@@ -60,3 +60,19 @@ dagshub.init(repo_owner='presiZHai', repo_name='Kidney-Disease-Classification', 
 ```
 
 ### DVC for Tracking Pipeline: DVC define pipelines in a standard YAML format (.dvc and dvc.yaml files), making them more manageable and consistent to reproduce.
+DVC commands
+1. dvc init
+2. dvc repro
+3. dvc dag
+
+### Streamlining ML Workflows: A Look at MLflow and DVC 
+#### MLflow
+
+* Production-Grade: Designed for handling the demands of real-world machine learning projects.
+* Experiment Tracking: Tracks and compares all your experiments, allowing for better analysis and iteration.
+* Model Logging & Tagging: Logs your models along with metadata (tags) for easy version control and retrieval.
+#### DVC
+
+* Lightweight: Ideal for proof-of-concept (POC) projects due to its low resource requirements.
+* Experiment Tracking (Lite): Provides basic experiment tracking capabilities.
+* Pipeline Orchestration: Can be used to create and manage data science workflows (pipelines).
